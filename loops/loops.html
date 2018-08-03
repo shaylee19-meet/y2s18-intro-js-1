@@ -18,7 +18,16 @@ var randomInt = getRandomInt(1, 100);
 /* END STARTING CODE */
 
 // your code goes under here
-
+var guss_number=prompt("guss a number betwin 1-100")
+while (guss_number>!= randomInt)
+{if (guss_number> randomInt)
+{alert("you guessed too high");
+guss_number=prompt("guss a number");
+else if (guss_number< randomInt)
+{alert("you guessed too low");
+guss_number=prompt("guss a number");}}
+}
+alert("you guessed right");
     </script>
 </body>
 

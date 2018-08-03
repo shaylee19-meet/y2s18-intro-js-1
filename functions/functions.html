@@ -15,8 +15,17 @@ function isLetter(char) {
     return "abcdefghijklmnopqrstuvwxyz".indexOf(char) >= 0;
 }
 
-// Write your isPalindrome function here!
-
+// Write your isPalindrome function here
+function isPalindrome(word)
+{
+var array_word=word;
+array_word.reverse();
+if (array_word===word)
+{alert("this word is a Palindrome");
+else
+{alert("this word is not a Palindrome");}
+}
+}
     </script>
 </body>
 
